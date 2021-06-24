@@ -15,6 +15,9 @@ class Match(models.Model):
     ),blank=True)
     date=models.DateTimeField()
 
+    def __str__(self):
+        return self.team_a.title+ ' vs ' + self.team_b.title
+
 class Team(models.Model):
     title=models.CharField(max_length=20)
     year=models.PositiveIntegerField()
