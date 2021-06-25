@@ -13,3 +13,6 @@ class TransactionAdmin(admin.ModelAdmin):
 
 admin.site.register(Transaction,TransactionAdmin)
 
+
+
+admin.site.register(Promocode)
