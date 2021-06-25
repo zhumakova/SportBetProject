@@ -1,6 +1,5 @@
 from django.db import models
 from userprofile.models import Profile
-
 from MatchTeam.models import Match
 
 
